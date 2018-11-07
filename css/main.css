@@ -1,8 +1,44 @@
 html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  padding: .5em 0 0;
+  width: 40px;
+}
+
+h1 {
+  margin: 0;
+  padding: .4rem 0;
+  font-size: 2rem;
+}
+
+h1, li {
+  ont-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #d05c2e;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+
+.links {
+  color: #fff;
 }
