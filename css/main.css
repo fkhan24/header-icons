@@ -24,10 +24,22 @@ h1 {
 }
 
 h1, li {
-  ont-weight: bold;
+  font-weight: bold;
   text-align: center;
   color: #fff;
   background-color: #d05c2e;
+}
+
+li {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a63f38;
+
+  display: inline-block;
+  font-size: 1.125rem;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
 .right {
@@ -38,7 +50,19 @@ h1, li {
   float: left;
 }
 
-
 .links {
+  background-color: #d05c2e;
+  display: flex;
+}
+
+.links a:hover {
+  background-color: #a63f38;
   color: #fff;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  width: 100%;
 }
